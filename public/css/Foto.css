@@ -1,0 +1,40 @@
+.main .invite-message .invite-content{
+    background: #fff;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.main .invite-message .invite-content .card{
+    background: #F0F5FF;
+    width: 700px;
+    border: #0057FF;
+    border-style:dashed;
+}
+
+.main .invite-message .invite-content .card img{
+    margin-top: 15px;
+}
+
+.main .invite-message .img-post .post {
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.main .invite-message .img-post .post img{
+    margin: 5px 10px;
+}
+.main .invite-message .img-post .post p{
+    margin-bottom: 0;
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.main .invite-message .img-post .post a{
+    margin: 15px 10px 0;
+    font-size: 15px;
+}

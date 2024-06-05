@@ -1,0 +1,463 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+::after,
+::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+h4 {
+    font-weight: 800;
+    font-size: 1rem;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F0F5FF;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.main {
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    transition: all 0.35s ease-in-out;
+    background-color: #F0F5FF;
+}
+
+
+.main .dasboard h4{
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0;
+    color: #0057FF;
+}
+
+.main .dasboard p{
+    font-size: 12px;
+    color: #0057FF;
+}
+
+
+.main .form-input .input-box input{
+    margin: 5px 0;
+    width: 500px;
+    height: 45px;
+    border: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.main .form-input .input-box input::placeholder{
+    color: #0057FF;
+}
+
+.main .form-input button{
+    margin: 5px;
+    height: 45px;
+    color: #0057FF;
+}
+
+.main .form-input .search {
+    margin: 5px 0;
+    padding: 10px;
+    width: 50px;
+    height: 45px;
+    background: #FFF;
+    color: #0057FF;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.main .invite-left,
+.main .invite-right {
+    background: #FFF;
+    padding:20px 0 10px 0;
+    margin: 1rem 0;
+}
+
+.main .invite-left .invite-send {
+    background: #FFBDBD;
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-size: 20px;
+    padding: 12px;
+    margin: 0 20px 10px 20px;
+    border-radius: 5px;
+    color: red;
+}
+
+.main .invite-right .invite-send {
+    background: #FFD482;
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-size: 30px;
+    padding: 5px 10px;
+    margin: 0 20px 10px 20px;
+    border-radius: 5px;
+    color: white;
+}
+
+/* .main .invite-left .invite-send i {
+    size: 50px;
+} */
+
+.main .invite-message {
+    background: #FFF;
+    height: auto;
+    padding: 40px;
+    border-radius: 20px;
+    font-size: 20px;
+    color: #0057FF;
+    font-weight: 500px;
+    margin-top: 2rem;
+}
+
+.main .invite-message .invite-content p .nd {
+    margin-bottom: 2rem;
+}
+
+
+.main .invite-message .invite-post{
+    background: #fff;
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+    margin: 2rem 0;
+}
+
+.main .invite-message .template-post{
+    background: #fff;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.main .invite-message .template-post .card-content{
+    background: #fff;
+    width: 300px;
+    height: 300px;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .invite-message .template-post .card-content h4{
+    font-size: 25px;
+    color: #000;
+    font-weight: 900;
+    margin: 0;
+}
+
+.main .table-message {
+    background: #FFF;
+    height: 500px;
+    padding: 40px;
+    border-radius: 20px;
+    font-weight: 500px;
+    margin-top: 2rem;
+}
+
+.main .table-message .title h4{
+    color: #0057FF;
+    font-weight: 600;
+}
+
+
+
+.main section .card {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 2rem;
+    border: none;
+}
+
+.main section .card .card-header{
+    margin: 10px 0;
+    padding: 0 10px;
+    background-color: #FFF;
+}
+
+.main section .card .card-header .card-title{
+    margin: 10px 25px;
+    padding: 0;
+    font-size: 15px;
+    font-weight: 500;
+    color: #718EBF;
+}
+
+.main section .card .card-header .card-title-active{
+    margin: 10px 25px;
+    padding: 0;
+    font-size: 15px;
+    font-weight: 800;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-style: solid;
+    text-underline-offset: 1rem;
+    color: #0057FF;
+}
+
+
+.main section .card .card-body .card-profile .img-profile{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.main section .card .card-body .card-profile .edit{
+    width: 35px;
+    height: 30px;
+    padding: 5px;
+    background-color: #0057FF;
+    color: #FFF;
+    border-radius: 50%;
+    position: relative;
+    top: 130px;
+    left: -30px;
+}
+
+.main section .card .card-body form{
+    margin-top: 2rem;
+}
+
+.main section .card .card-body form .form-edit{
+    padding: 0;
+    margin: 10px 10px 10px 0;
+}
+
+.main section .card .card-body form a{
+    margin-bottom: 0;
+    margin-top: 5rem;
+    width: 180px;
+}
+
+.prefence{
+    display: flex;
+    margin: 20px 0;
+}
+.prefence .buttons{
+    background: #DFEAF2;
+    width: 80px;
+    height: 40px;
+    border-radius: 200px;
+    cursor: pointer;
+    position: relative;
+    transition: 0.2s;
+    margin-right: 30px;
+}
+
+.prefence .buttons::before{
+    position: absolute;
+    content: '';
+    background-color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 5px;
+    transition: 0.2s;
+}
+
+.prefence input:checked + .buttons{
+    background-color: #16DBCC;
+}
+
+.prefence input:checked + .buttons::before{
+    transform: translateX(40px);
+}
+
+.prefence input{
+    display: none;
+}
+
+.prefence p{
+    margin-bottom: 0;
+    margin-top: 8px;
+}
+
+
+
+#sidebar {
+    width: 120px;
+    min-width: 70px;
+    z-index: 1000;
+    transition: all .25s ease-in-out;
+    background-color: #0057FF;
+    display: flex;
+    flex-direction: column;
+}
+
+#sidebar.expand {
+    width: 260px;
+    min-width: 260px;
+}
+
+
+.toggle-btn {
+    background-color: transparent;
+    cursor: pointer;
+    border: 0;
+    padding: 1rem 1.5rem;
+    margin: 2rem 0 ;
+}
+
+.toggle-btn i {
+    font-size: 1.5rem;
+    color: #FFF;
+}
+
+.toggle-btn i img{
+    width: 70px;
+}
+
+.sidebar-logo {
+    margin: auto 0;
+}
+
+.sidebar-logo img {
+    width: 120px;
+}
+
+.sidebar-logo a {
+    color: #FFF;
+    font-size: 1.15rem;
+    font-weight: 600;
+}
+
+.sidebar-main{
+    background-color: #0057FF;
+}
+
+#sidebar:not(.expand) .sidebar-logo,
+#sidebar:not(.expand) a.sidebar-link span,
+/* #sidebar:not(.expand) a.sidebar-link-active span, */
+#sidebar:not(.expand) a.sidebar-profil-link span {
+    display: none;
+}
+
+.line {
+    width: 80%;
+    left: 10px;
+    border-top: 2px solid #ccddff;
+    box-sizing: border-box;
+    height: 2px;
+    margin: 2rem 1rem;
+}
+
+
+a.sidebar-profil-link{
+    padding: .625rem 1.625rem;
+    margin: 15px;
+    border-radius: 5px;
+    background: #FFF;
+    color: #0057FF;
+    display: block;
+    font-size: 0.9rem;
+    white-space: nowrap;
+    border-left: 3px solid transparent;
+}
+
+.sidebar-profil-link i{
+    font-size: 1.1rem;
+    margin-right: .75rem;
+}
+
+.sidebar-nav {
+    padding: 0;
+    flex: 1 1 auto;
+}
+
+a.sidebar-link {
+    padding: .625rem 1.625rem;
+    color: #FFF;
+    display: block;
+    font-size: 0.9rem;
+    white-space: nowrap;
+    border-left: 3px solid transparent;
+    transition: all ease-in .5s;
+}
+
+.sidebar-link i {
+    font-size: 1.1rem;
+    margin-right: .75rem;
+}
+
+
+a.sidebar-link:hover {
+    margin: 15px;
+    border-radius: 5px;
+    background: #FFF;
+    color: #0057FF;
+    transition: all ease-in .5s;
+}
+
+/* a.sidebar-link-active {
+    padding: .625rem 1.625rem;
+    margin: 15px;
+    border-radius: 5px;
+    background: #FFF;
+    color: #0057FF;
+    display: block;
+    font-size: 0.9rem;
+    white-space: nowrap;
+    border-left: 3px solid transparent;
+} */
+
+.sidebar-item {
+    position: relative;
+}
+
+#sidebar:not(.expand) .sidebar-item .sidebar-dropdown {
+    position: absolute;
+    top: 0;
+    left: 70px;
+    background-color: #0e2238;
+    padding: 0;
+    min-width: 15rem;
+    display: none;
+}
+
+#sidebar:not(.expand) .sidebar-item:hover .has-dropdown+.sidebar-dropdown {
+    display: block;
+    max-height: 15em;
+    width: 100%;
+    opacity: 1;
+}
+
+#sidebar.expand .sidebar-link[data-bs-toggle="collapse"]::after {
+    border: solid;
+    border-width: 0 .075rem .075rem 0;
+    content: "";
+    display: inline-block;
+    padding: 2px;
+    position: absolute;
+    right: 1.5rem;
+    top: 1.4rem;
+    transform: rotate(-135deg);
+    transition: all .2s ease-out;
+}
+
+#sidebar.expand .sidebar-link[data-bs-toggle="collapse"].collapsed::after {
+    transform: rotate(45deg);
+    transition: all .2s ease-out;
+}

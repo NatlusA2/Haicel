@@ -1,0 +1,448 @@
+/* POPPINS FONT */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.wrapper{
+    background: #ececec;
+    padding: 0 20px 0 20px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.side-image{
+    width: 300px;
+    background-image: url("../img/fill-out-pana-1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px 0 0 10px;
+    position: relative;
+}
+
+.side-image img{
+  position: absolute;
+  top: 30px;
+  left: calc(50% - 125px);
+  width: 250px;
+  height: 48.8px;
+  object-fit: cover;
+}
+
+.group-child {
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  border-radius: 8px;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  width: 300px;
+  height: 300px;
+  }
+  .group-item {
+  position: absolute;
+  top: 177px;
+  left: 174px;
+  border-radius: 8px;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  width: 200px;
+  height: 200px;
+  }
+  .rectangle-parent {
+  position: absolute;
+  top: 260px;
+  left: -145px;
+  width: 374px;
+  height: 377px;
+  }
+
+.row{
+  width:  1440px;
+  height: auto;
+  border-radius: 10px;
+  background: #fff;
+  padding: 0px;
+  box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.2);
+}
+.text{
+    position: absolute;
+    width: 500px;
+    top: 170px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text h4{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  margin: 20px 0 20px 0;
+}
+
+.text p{
+    color: #fff;
+    font-size: 18px; 
+    text-align: center;
+}
+
+.right{
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: #F0F5FF;
+}
+.input-box{
+  width: 330px;
+  box-sizing: border-box;
+}
+img{
+    width: 35px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.input-box header{
+    margin-top: 50px;
+    font-weight: 700;
+    text-align: start;
+    color: #0057FF;
+}
+.input-field {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 0 10px 0 10px;
+}
+
+.input-field label{
+  margin: 0;
+}
+
+.input-field input{
+  margin: 20px 0 20px 0;
+  padding-left: 15px;
+  width: 100%;
+  position: relative;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+  border: none;
+  border-radius: 10px;
+  background-color: #fff;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: 16px;
+  color: #575757;
+  font-family: Poppins;
+}
+
+.input-submit {
+  display: flex;
+  justify-content: center;
+}
+
+.submit{
+    text-decoration: none;
+    margin: 10px;
+    width: 50%;
+    border-radius: 16px;
+    background-color: #0057ff;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 20px;
+    color: #f0f5ff;
+}
+
+
+.submit:hover{
+    background: rgba(37, 95, 156, 0.937);
+    color: #fff;
+}
+
+.form-outer {
+  width: 100%;
+  overflow:hidden;
+}
+
+.form-outer form{
+  display: flex;
+  width: 400%;
+}
+
+.form-outer form .page{
+  width: 25%;
+}
+
+.form-outer form .page .otp-field{
+    margin: 50px 0 50px 0;
+  width: 100%;
+  height: 77px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+
+.form-outer form .page .otp-field input{
+  width: 75px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid #0057ff;
+  box-sizing: border-box;
+  height: 77px;
+}
+
+.form-outer form .page .time{
+    display: flex;
+    justify-content: center;
+    color: #E94E0F;
+    font-weight: 800;
+    margin-bottom: 3px;
+}
+
+.form-outer form .page .re-msg{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 140;
+}
+.form-outer form .page .paket{
+  display: flex;
+}
+
+.form-outer form .page .paket .card{
+  width: 250px;
+  border-radius: 10%;
+  margin:  30px 5px 30px 0;
+}
+
+.form-outer form .page .paket .card .card-title{
+  padding: 20px;
+}
+
+
+.form-outer form .page .paket .card .harga p{
+  margin-bottom: 0;
+}
+
+.form-outer form .page .paket .card .harga .awal{
+  color: red;
+  font-size: 10px;
+  text-decoration:line-through;
+}
+
+.form-outer form .page .paket .card .benefit-pack{
+  margin: 40px 0 20px 0;
+}
+
+.form-outer form .page .paket .card a{
+  margin: 10px 10px 20px 10px;
+  border-radius: 16px;
+  width: 180px;
+  height: 46px;
+}
+
+.form-outer form .page .pembayaran{
+  margin: 380px;
+}
+
+span a:hover{
+    text-decoration: underline;
+    color: #000;
+}
+
+.steper{
+  display: flex;
+  justify-content: center;
+}
+
+.progress_header{
+    width: 400px;
+    height: 20px;
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-between;
+    border-radius: 10px;
+    background:  
+        linear-gradient(blue , blue) 0 9px/0% 4px no-repeat,
+        linear-gradient(#0057FF,#0057FF) 0 9px/100% 4px no-repeat;
+        transition: background-size 0.5s ease;
+}
+
+.progress_header p{
+    position: relative;
+    margin: 0;
+}
+
+.progress_header p .step{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #0057FF;
+    transition:  
+        background 0.3s ease 0.3s,
+        color 0.15s ease 0.2s;
+}
+
+.progress_header .completed .step{
+    background-color: #0057FF;
+    color: #eee;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+#openOverlay {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  width: 50%;
+  border-radius: 16px;
+  background-color: #0057ff;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 20px;
+  color: #f0f5ff;
+}
+
+.overlay {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.5); /* Black w/ opacity */
+}
+
+.overlay-content {
+  position: relative;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  width: 80%; /* Could be more or less, depending on screen size */
+  background-color: white;
+  border-radius: 5px;
+}
+
+.overlay-content .overlay-title {
+  display: flex;
+  justify-content: center;
+}
+
+.overlay-content .overlay-title .tittle{
+  width: 150px;
+  display: flex;
+}
+
+.overlay-content .overlay-title h4{
+  font-size: 16;
+  margin: 0 15px 0 5px;
+  font-weight: 600;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  color: #aaa;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close-btn:hover,
+.close-btn:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  color: #aaa;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close-btn:hover,
+.close-btn:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+@media only screen and (max-width: 1016px){
+  .progress_header{
+    width: 300px;
+    height: 20px;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 5rem;
+    justify-content: space-between;
+    border-radius: 10px;
+    background:  
+        linear-gradient(blue , blue) 0 9px/0% 4px no-repeat,
+        linear-gradient(#0057FF,#0057FF) 0 9px/100% 4px no-repeat;
+        transition: background-size 0.5s ease;
+}
+}
+
+@media only screen and (max-width: 768px){
+    .side-image{
+        border-radius: 10px 10px 0 0;
+    }
+    img{
+        width: 35px;
+        position: absolute;
+        top: 20px;
+        left: 47%;
+    }
+    .text{
+        position: absolute;
+        top: 70%;
+        text-align: center;
+    }
+    .text p, i{
+        font-size: 16px;
+    }
+    .row{
+        max-width:420px;
+        width: 100%;
+    }
+}

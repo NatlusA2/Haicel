@@ -1,0 +1,25 @@
+.invite-message {
+    background: #FFF;
+    height: auto;
+    padding: 40px;
+    border-radius: 20px;
+    font-size: 20px;
+    color: #0057FF;
+    font-weight: 500px;
+}
+
+.invite-message form .form-edit{
+    margin: 10px 0;
+}
+
+.invite-message form .form-edit iframe{
+    border-radius: 10px;
+}
+
+.invite-message form .form-edit label{
+    margin-bottom: 5px;
+}
+
+.invite-message form .form-edit input{
+    margin-bottom: 1rem;
+}
