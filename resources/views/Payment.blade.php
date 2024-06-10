@@ -1,113 +1,119 @@
-<div>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
-    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script src="https://unpkg.com/feather-icons"></script>
-    <link rel="stylesheet" href="css/register.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
-    <div class="wrapper">
-        <div class="container main">
-            <div class="row">
-                <div class="col-md-6 side-image bg-primary">
-                           
-                    <!-------------      image     ------------->
-                    
-                    <img src="img/haicel-white-1.png" alt="">
-                    <div class="text">
-                        <h4>Hi Welcome back</h4>
-                        <p>to keep connected with us please login 
-                        <br>with your personali info
-                        </p>
+<x-register>
+    <div class="col-lg-4 side-image bg-primary">
+        <x-LR>
+            <x-slot name="title">Pembayaran</x-slot>
+            <x-slot name="paragraph">"Untuk menyelesaikan transaksi, silakan pilih metode pembayaran yang Anda inginkan. Transaksi Anda akan diproses dengan aman."</x-slot>
+            <x-slot name="additionalText"></x-slot>
+        </x-LR>
+        <img class="cover" src="img/fill out (3).png" alt="">
+        <x-rectangle></x-rectangle>
+    </div>
+    <div class="col-lg-8 right px-3">
+    <div class="input-box w-100">
+        <div class="steper">
+         <div class="progress_header">
+             <p class="completed"><span class="step"><i data-feather="check"></i></span>Daftar</p>
+             <p class="completed"><span class="step">2</span>Verifikasi</p>
+         </div>
+        </div> 
+        <div class="form-outer">
+         <form action="#">
+            <div class="page">
+                <header class="page-title">Daftar</header>
+                <p>Silahkan daftar terlebih dahulu untuk melanjutkan  ke step berikutnya</p>
+                <div class="tranfer d-flex justify-content-center">
+                    <div class="tranfer-title d-flex justify-content-center border-bottom">
+                        <h4 class="mx-3">Tranfer</h4><span></span>
+                        <i class="fa-solid fa-building-columns mt-2"></i>
                     </div>
-                    <div class="rectangle-parent">
-                        <div class="group-child">
+                </div>
+                <div class="metode">
+                    <div class="card">
+                        <div class="card-pay d-flex justify-content-between">
+                            <div class="bank d-flex">
+                                <img src="img/bni.png" alt="">
+                                <h4>BNI</h4>
+                            </div>
+                                <input type="checkbox" id="check">
                         </div>
-                        <div class="group-item">
+                    </div>
+                    <div class="card">
+                        <div class="card-pay d-flex justify-content-between">
+                            <div class="bank d-flex">
+                                <img src="img/bri.png" alt="">
+                                <h4>BRI</h4>
+                            </div>
+                            <input type="checkbox" id="check">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-pay d-flex justify-content-between">
+                            <div class="bank d-flex">
+                                <img src="img/bca.png" alt="">
+                                <h4>BCA</h4>
+                            </div>
+                            <input type="checkbox" id="check">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-pay d-flex justify-content-between">
+                            <div class="bank d-flex">
+                                <img src="img/mandiri.png" alt="">
+                                <h4>Mandiri</h4>
+                            </div>
+                            <input type="checkbox" id="check">
                         </div>
                     </div>
                 </div>
-    
-                <div class="col-md-6 right">
-                    
-                    
-                    <div class="input-box w-100">
-                       <div class="steper">
-                        <div class="progress_header">
-                            <p class="completed"><span class="step"><i data-feather="check"></i></span>Daftar</p>
-                            <p class="completed"><span class="step"><i data-feather="check"></i></span>Verifikasi</p>
-                            <p class="completed"><span class="step"><i data-feather="check"></i></span>Pilih Paket</p>
-                            <p><span class="step">4</span>Pembayaran</p>
-                        </div>
-                       </div> 
-                       <div class="form-outer">
-                        <form action="#">
-                            <div class="page">
-                                <header class="page-title">Daftar</header>
-                                <p>Silahkan daftar terlebih dahulu untuk melanjutkan  ke step berikutnya</p>
-                                <div class="pembayaran">
-                                </div> 
-
-                                <div class="input-submit">
-                                    <button id="openOverlay">Open Overlay</button>
-                                
-                                    <div id="overlay" class="overlay">
-                                        <div class="overlay-content">
-                                            <span class="close-btn" id="closeOverlay">&times;</span>
-                                            <div class="overlay-title">
-                                                <div class="tittle border-bottom">
-                                                <h4>Overlay Title</h4><span></span>
-                                                <i class="fa-solid fa-building-columns"></i>
-                                                </div>
-                                            </div>
-                                            <div class="overlay-pay">
-                                                <div class="card">
-                                                    <div class="card-pay d-flex justify-content-between">
-                                                        <img src="img/header.png" alt="">
-                                                        <h4>BNI</h4>
-                                                        <button class="select"></button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                
-                                    <script src="js/script.js"></script>
-                                </div>
+                <div class="tranfer d-flex justify-content-center">
+                    <div class="tranfer-title border-bottom">
+                    <h4>Lainnya</h4><span></span>
+                    </div>
+                </div>
+                <div class="metode">
+                    <div class="card">
+                        <div class="card-pay d-flex justify-content-between">
+                            <div class="bank d-flex">
+                                <img src="img/" alt="">
+                                <h4>Dana</h4>
                             </div>
-                        </form>
-                       </div> 
-                    </div>             
+                                <input type="checkbox" id="check">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-pay d-flex justify-content-between">
+                            <div class="bank d-flex">
+                                <img src="img/" alt="">
+                                <h4>Shoope</h4>
+                            </div>
+                            <input type="checkbox" id="check">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-pay d-flex justify-content-between">
+                            <div class="bank d-flex">
+                                <img src="img/" alt="">
+                                <h4>Alphamart</h4>
+                            </div>
+                            <input type="checkbox" id="check">
+                        </div>
+                    </div>
+                    {{-- <div class="card">
+                        <div class="card-pay d-flex justify-content-between">
+                            <div class="bank d-flex">
+                                <img src="img/mandiri.png" alt="">
+                                <h4>Mandiri</h4>
+                            </div>
+                            <input type="checkbox" id="check">
+                        </div>
+                    </div> --}}
+                </div>
+                <div class="invite-bottuns d-flex justify-content-center mt-5">
+                    <a type="button" class="create btn btn-primary" href="/mbanking">Selanjutnya</a>
                 </div>
             </div>
-        </div>
+         </form>
+        </div> 
+     </div>
     </div>
-    
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            var overlay = document.getElementById("overlay");
-            var openOverlayBtn = document.getElementById("openOverlay");
-            var closeOverlayBtn = document.getElementById("closeOverlay");
-
-            // Open the overlay
-            openOverlayBtn.onclick = function() {
-                overlay.style.display = "block";
-            }
-
-            // Close the overlay
-            closeOverlayBtn.onclick = function() {
-                overlay.style.display = "none";
-            }
-
-            // Close the overlay when clicking outside of the overlay content
-            window.onclick = function(event) {
-                if (event.target == overlay) {
-                    overlay.style.display = "none";
-                }
-            }
-        });
-    </script>
-    <script>
-        feather.replace();
-    </script>
-    
-</div>
+</x-register>

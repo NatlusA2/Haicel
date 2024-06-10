@@ -9,8 +9,13 @@
   <div class="col-12">
     <div class="invite-message">
         <x-card-header>Undangan Aktif</x-card-header>
+        <div class="invite-post d-flex border border-primary">
+          <img class="cover-undangan" src="img/undangan bagas.png" alt="">
+          <div class="title-undangan">
+            <a href="">Pernikahan bagas dan nana</a>
+          </div>
+        </div>
         <div class="invite-post border border-primary"></div>
-        <div class="invite-post border border-primary"></div>   
     </div>
   </div>
 </x-layout>

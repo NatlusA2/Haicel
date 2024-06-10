@@ -29,20 +29,20 @@
                         <div class="row">
                             <div class="card-content border border-primary text-center">
                                 <img src="" alt="">
-                                <h4>Template 1</h4>
+                                <h4>Template 4</h4>
                             </div>
                             <div class="card-content border border-primary text-center">
                                 <img src="" alt="">
-                                <h4>Template 1</h4>
+                                <h4>Template 5</h4>
                             </div>
                             <div class="card-content border border-primary text-center">
                                 <img src="" alt="">
-                                <h4>Template 1</h4>
+                                <h4>Template 6</h4>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 d-flex justify-content-end">
-                        <a href="/upload" class="btn btn-primary my-5">Simpan dan lanjut</a>
+                        <a href="/" class="btn btn-primary my-5">Simpan dan lanjut</a>
                     </div>
                     
                 </div>

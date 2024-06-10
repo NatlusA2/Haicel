@@ -1,19 +1,26 @@
 <x-layout>
-    <link rel="stylesheet" href="css/invite.css">
+  <!-- head -->
+  <x-header>Dasboard</x-header>
 
-    <div class="container-fluid">
-        <div class="row d-flex">
-          {{-- header --}}   
-          <x-header>add-Ons</x-header>
+  <!-- Invite Information -->
+  <x-card-info></x-card-info>
 
-          <!-- Invite Active -->
-          <div class="col-12">
-            <div class="invite-message">
-              <div class="invite-content text-center">
-                <x-No-data></x-No-data>
-              </div>
+  <!-- Invite Active -->
+  <div class="col-12">
+    <div class="invite-message">
+        <x-card-header>Undangan Aktif</x-card-header>
+        <div class="invite-post d-flex border border-primary">
+          <img class="cover-undangan" src="img/undangan bagas.png" alt="">
+          <div class="title-undangan">
+            <a href="">Pernikahan bagas dan nana</a>
+            <div class="edit-button d-flex justify-content-center">              
+              <button type="button" class="btn btn-primary ms-5 px-5">edit</button>
             </div>
           </div>
         </div>
-      </div>
+        <div class="invite-post border border-primary"></div>
+    </div>
+  </div>
 </x-layout>
+
+

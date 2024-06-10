@@ -140,6 +140,21 @@ body {
     margin: 2rem 0;
 }
 
+.main .invite-message .invite-post .cover-undangan{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-left: 0.1px
+}
+
+.main .invite-message .invite-post .title-undangan a{
+    margin: 70px 0 0 100px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+}
+
 .main .invite-message .template-post{
     background: #fff;
     width: 100%;

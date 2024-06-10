@@ -39,7 +39,12 @@ Route::get('/paket', function () {
 Route::get('/upload', function () {
     return view('Upload-Foto');
 });
-
+Route::get('/mbanking', function () {
+    return view('Mbanking');
+});
+Route::get('/struck', function () {
+    return view('transfer');
+});
 
 // register
 Route::get('/register', function () {
