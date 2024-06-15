@@ -365,7 +365,6 @@ body {
 
 #sidebar:not(.expand) .sidebar-logo,
 #sidebar:not(.expand) a.sidebar-link span,
-/* #sidebar:not(.expand) a.sidebar-link-active span, */
 #sidebar:not(.expand) a.sidebar-profil-link span {
     display: none;
 }
@@ -426,7 +425,7 @@ a.sidebar-link:hover {
     transition: all ease-in .5s;
 }
 
-/* a.sidebar-link-active {
+.sidebar-nav li a.active {
     padding: .625rem 1.625rem;
     margin: 15px;
     border-radius: 5px;
@@ -436,7 +435,7 @@ a.sidebar-link:hover {
     font-size: 0.9rem;
     white-space: nowrap;
     border-left: 3px solid transparent;
-} */
+}
 
 .sidebar-item {
     position: relative;

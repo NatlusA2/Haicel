@@ -1,4 +1,5 @@
-<table class="table">
+<div class="col-12">
+  <table class="table">
     <thead>
       <tr>
         <th scope="col">Costumer Name</th>
@@ -78,4 +79,5 @@
         </td>
       </tr>
     </tbody>
-</table>
+  </table>
+</div>

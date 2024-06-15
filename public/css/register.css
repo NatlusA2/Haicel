@@ -119,6 +119,37 @@
   margin: 0;
 }
 
+.form-outer form .page .page-title .teks-blue{
+  color: #0057FF;
+}
+
+.form-outer form .page .undangan-type{
+  width: auto;
+  height: 150px;
+
+}
+
+.form-outer form .page .undangan-type .type{
+  width: 520px;
+  height: 260px;
+}
+
+.form-outer form .page .undangan-type .type .card-undangan{
+  border-radius: 10px;
+  background:linear-gradient(to right, #2871FF 55% , #fff);
+  color: #fff;
+}
+
+.form-outer form .page .undangan-type .type .card-undangan .card-body .card-title{
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.form-outer form .page .undangan-type .type .card-undangan img{
+  background: #fff;
+  width: 130px;
+}
+
 .form-outer form .page .bill{
   display: flex;
   justify-content: center;
@@ -149,6 +180,11 @@
   margin: 5px 2px;
   background: #009883;
   border-radius: 50%;
+}
+
+.form-outer form .page .card .card-pembayaran .salin {
+  border: none;
+  background: none;
 }
 
 .form-outer form .page .bill .card .card-body .detail-pembelian{
@@ -202,6 +238,19 @@ font-family: Poppins;
   font-weight: 700;
   text-align: start;
   color: #0057FF;
+}
+
+.input-box .title .content-title p{
+  margin: 0 0 3px 0;
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.input-box .title .content-title{
+  background: #0057FF;
+  padding: 10px 50px;
+  border-radius: 10px;
 }
 
 
@@ -262,6 +311,7 @@ font-family: Poppins;
   font-family: "Font Awesome 6 Free";
   content: "\f111";
   margin-bottom: 5px;
+  margin-right: 1px;
   font-weight: 900;
   font-size: 10px;
   color: #0057FF;

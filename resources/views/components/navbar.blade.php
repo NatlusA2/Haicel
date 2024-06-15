@@ -21,37 +21,37 @@
   </div>
   <ul class="sidebar-nav">
       <li class="sidebar-item">
-          <a href="/" class="sidebar-link">
+          <a href="/" class="sidebar-link  {{ Request::is('/') ? 'active' : '' }}">
               <i class="fa-sharp fa-solid fa-house"></i>
               <span>Dasboard</span>
           </a>
       </li>
       <li class="sidebar-item">
-          <a href="/invite" class="sidebar-link">
+          <a href="/invite" class="sidebar-link {{ Request::is('invite') ? 'active' : '' }}">
               <i class="fa-regular fa-envelope"></i>
               <span>Undangan</span>
           </a>
       </li>
       <li class="sidebar-item">
-          <a href="/add" class="sidebar-link">
+          <a href="/add" class="sidebar-link {{ Request::is('add') ? 'active' : '' }}">
               <i class="fa-solid fa-chart-simple"></i>
               <span>Add Ons</span>
           </a>
       </li>
       <li class="sidebar-item">
-          <a href="/transaksi" class="sidebar-link">
+          <a href="/transaksi" class="sidebar-link {{ Request::is('transaksi') ? 'active' : '' }}">
               <i class="fa-solid fa-money-bill-wave"></i>
               <span>Transaksi</span>
           </a>
       </li>
       <li class="sidebar-item">
-          <a href="/paket" class="sidebar-link">
+          <a href="/paket" class="sidebar-link {{ Request::is('paket') ? 'active' : '' }}">
               <i class="fa-regular fa-newspaper"></i>
               <span>Paket</span>
           </a>
       </li>
       <li class="sidebar-footer">
-        <a href="/set" class="sidebar-link">
+        <a href="/set" class="sidebar-link {{ Request::is('set') ? 'active' : '' }}">
             <i class="fa-solid fa-gear"></i>
             <span>Setting</span>
         </a>

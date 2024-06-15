@@ -5,7 +5,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('Home');
 });
-
 Route::get('/transaksi', function () {
     return view('Transaksi');
 });
@@ -44,6 +43,9 @@ Route::get('/mbanking', function () {
 });
 Route::get('/struck', function () {
     return view('transfer');
+});
+Route::get('/type', function () {
+    return view('Invite-type');
 });
 
 // register

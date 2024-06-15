@@ -21,7 +21,7 @@
              <div class="page">
                  <header class="page-title">Daftar</header>
                  <p>Silahkan daftar terlebih dahulu untuk melanjutkan  ke step berikutnya</p>
-                 <div class="car">
+                 <div class="card">
                     <div class="row">
                       <div class="col-md-8">
                         <div class="card-body">
@@ -55,7 +55,28 @@
                           </div>
                       </div>
                       <div class="col-md-4">
-                        {{-- <img src="..." class="img-fluid rounded-start" alt="..."> --}}
+                        <div class="card">
+                          <div class="card-body">
+                            <div class="card-title d-flex justify-content-center">
+                              <img src="img/bca.png" alt="">
+                          </div>
+                          <p class="card-subtitle mb-2 text-body-secondary"><small>Virtual Account Number</small></p>
+                          <div class="card-pembayaran d-flex justify-content-between">
+                              <h5>13425265762426266</h5>
+                              <button class="salin" onclick="showAlert()"><i data-feather="copy"></i></button>
+                          </div>
+                          <div class="detail-pembelian">
+                              <div class="pembelian">
+                                  <p>Nama Virtual Account</p>
+                                  <h5>Haicel</h5>
+                              </div>
+                              <div class="pembelian">
+                                  <p>Nominal yang akan dibayarkan</p>
+                                  <h5>IDR 50.000</h5>
+                              </div>
+                          </div>
+                          </div>
+                        </div>
                       </div>
                     </div>
                  </div>
@@ -68,4 +89,9 @@
         </div> 
      </div>
     </div>
+    <script>
+      function showAlert() {
+          alert("Code Telah Di Salin");
+      }
+  </script>
 </x-register>

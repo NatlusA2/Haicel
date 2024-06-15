@@ -63,7 +63,7 @@
                     </div>
                 </div>
                 <div class="input-submit">
-                    <a href="/invite-detail" class="submit">next</a>
+                    <a href="/type" class="submit">next</a>
                 </div>
             </div>
          </form>
