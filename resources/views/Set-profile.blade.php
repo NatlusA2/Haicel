@@ -21,7 +21,7 @@
                                     <div class="card-profile d-flex">
                                         <img class="img-profile" src="img/pexels-christina-morillo.png" alt="">
                                         <i class="edit" data-feather="edit-2"></i>
-                                        <h1 class="nama">Jesica Carila Cecilion</h1>
+                                      
                                     </div>
                                 </div>
                                 <div class="col-xl-12 p-0">

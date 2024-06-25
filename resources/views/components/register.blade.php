@@ -20,8 +20,8 @@
         </div>
     </section>
 
+    @stack('scripts')
 
-<script src="js/multistep.js"></script>
 <script src="js/jsOTp.js"></script>
 <script>
     feather.replace();

@@ -17,10 +17,12 @@
          </div>
         </div> 
         <div class="form-outer">
-         <form action="#">
+         <form method="POST" action="{{ route('verify.otp') }}" >
+         @csrf
             <div class="page">
                 <header class="page-title">Verifikasi</header>
-                <p>Silahkan daftar terlebih dahulu untuk melanjutkan  ke step berikutnya</p>
+                <p>Kami telah mengirimkan kode OTP ke nomor anda </p>
+               
                 <div class="otp-field">
                     <input type="text" class="input" maxlength="1" id="nama" required="" autocomplete="off">
                     <input type="text" class="input" maxlength="1" id="nama" required="" autocomplete="off">
@@ -36,11 +38,13 @@
                     <p>Tidak mendapatkan mesage ? <a href="">Kirim Ulang mesage</a></p>
                 </div>
                 <div class="input-submit">
-                    <a href="/" class="submit">next</a>
+                <button class="submit" type="submit" >Daftar</button>
                 </div>
             </div>
          </form>
         </div> 
      </div>
     </div>
+
+  
 </x-register>

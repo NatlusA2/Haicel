@@ -109,7 +109,7 @@
                     </div> --}}
                 </div>
                 <div class="invite-bottuns d-flex justify-content-center mt-5">
-                    <a type="button" class="create btn btn-primary" href="/mbanking">Selanjutnya</a>
+                    <a type="button" class="create btn btn-primary" href="/invite-detail">Selanjutnya</a>
                 </div>
             </div>
          </form>

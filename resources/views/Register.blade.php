@@ -17,20 +17,27 @@
          </div>
         </div> 
         <div class="form-outer">
-         <form action="#">
+         <form method="POST" action="{{ route('register') }}">
+         @csrf
              <div class="page">
                  <header class="page-title">Daftar</header>
                  <p>Silahkan daftar terlebih dahulu untuk melanjutkan  ke step berikutnya</p>
                  <div class="input-field">
                      <label for="nama">Nama</label>
-                     <input type="text" class="input" id="nama" placeholder="Masukan Nama" required="" autocomplete="off"> 
+                     <input type="text" class="input" name="Nama" id="Nama" value="{{ old('Nama') }}" placeholder="Masukan Nama" required="" autocomplete="off"> 
+                     @error('Nama')
+                    <div class="error">{{ $message }}</div>
+                @enderror
                  </div> 
                  <div class="input-field">
                      <label for="whatsap">Nomor Whatsap</label>
-                     <input type="number" class="input" id="whatsap" placeholder="Masukan Nomor Whatsap" required="">
+                     <input type="string" class="input" name="Nomor_Telp" id="Nomor_Telp" value="{{ old('Nomor_Telp') }}" placeholder="Masukan Nomor Whatsap" required="">
+                     @error('Nomor_Telp')
+                    <div class="error">{{ $message }}</div>
+                @enderror
                  </div>
                  <div class="input-submit">
-                     <a href="/verifikasi" class="submit">next</a>
+                 <button class="submit" type="submit">Daftar</button>
                  </div>
              </div>
          </form>

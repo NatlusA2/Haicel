@@ -11,7 +11,7 @@
              <div class="page ">
                   <div class="page-title d-flex justify-content-center text-center ">
                     <p>Ada banyak pilihan Preset sesuai kategori kebutuhanmu yang Bisa Kamu Pilih Sesuai Dengan Seleramu
-                      <br class=""><span class="blue-text text-primary">Dan bisa Langsung Pakai !</span></p>
+                      <!-- <br class=""><span class="blue-text text-primary">Dan bisa Langsung Pakai !</span></p> -->
                   </div>
                   <div class="undangan-type d-flex justify-content-center mt-5">
                     <a href="">
